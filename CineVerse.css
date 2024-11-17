@@ -1,0 +1,106 @@
+*body {
+   padding:0;
+   margin:auto;
+   display:flex;
+}
+.navbar div {
+    flex-basis:200px;
+    justify-items: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  }
+  
+ .cards-group{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+
+ }
+
+ /* black and white filter */
+ .card-1{
+  filter: grayscale(100%);
+ }
+
+ .card-1:hover{
+  filter: grayscale(0%);
+ }
+
+.card-2{
+  filter: grayscale(100%);
+}
+
+.card-2:hover{
+  filter: grayscale(0%);
+}
+
+.card-3{
+  filter: grayscale(100%);
+}
+
+.card-3:hover{
+  filter: grayscale(0%);
+}
+
+.card-4{
+  filter: grayscale(100%);
+}
+
+.card-4:hover{
+  filter: grayscale(0%);
+}
+
+.card-5{
+  filter: grayscale(100%);
+}
+
+.card-5:hover{
+  filter: grayscale(0%);
+}
+
+.card-6{
+  filter: grayscale(100%);
+}
+
+.card-6:hover{
+  filter: grayscale(0%);
+}
+
+.card-7{
+  filter: grayscale(100%);
+}
+
+.card-7:hover{
+  filter: grayscale(0%);
+}
+
+.card-groups:hover > :not(:hover) {
+  opacity: 0.4;
+}
+
+
+
+.carousel-item active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+ 
+h2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  li{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    align-items: center;
+    justify-content: center;
+    display:block
+  }
+
